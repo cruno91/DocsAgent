@@ -23,3 +23,19 @@ curl 127.0.0.1:8000/v1/api
 ```json
 {"message":"hello world"}
 ```
+
+### CLI Test
+
+```shell
+doc-agent scan-directory <directory containing pdf files> -e pdf
+```
+
+*Example:*
+```shell
+doc-agent scan-directory data/raw -e pdf -e md
+/Users/username/data/raw/ex.md
+/Users/username/data/raw/ex.pdf
+
+doc-agent scan-directory data/raw -e pdf
+/Users/username/data/raw/ex.pdf
+```

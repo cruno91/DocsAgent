@@ -9,7 +9,11 @@ requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.110",
     "uvicorn[standard]>=0.29",
+    "typer[all]>=0.12",
 ]
+
+[project.scripts]
+doc-agent = "apps.cli.main:main"
 
 [tool.setuptools]
 package-dir = {"" = "."}
