@@ -54,16 +54,6 @@ curl 127.0.0.1:8000/v1/llm-test
 }
 ```
 
-
-
-```shell
-curl 127.0.0.1:8000/v1/hello
-```
-
-```json
-{"message":"hello world"}
-```
-
 ### CLI Test
 
 ```shell
